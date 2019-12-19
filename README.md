@@ -1,8 +1,10 @@
 # Coral Team Child Auditor Test
 
-> The component shows statistics about related objects
+> The component shows statistics about related objects (Account screen below)
 
+<p align="center"> 
 ![picture](imgs/1.png)
+</p>
 
 **Solution**
 
@@ -13,8 +15,17 @@
 - Child objects are determined dynamically using Metadata API
 - The component uses single SOQL to fetch related objects and count them
 
+**Flow"**
 ![picture](imgs/3.png)
 
-- Spinner is supported
-
+**Spinner**
 ![picture](imgs/2.png)
+
+**Contact screen**
+![picture](imgs/4.png)
+
+**Opportunity screen**
+![picture](imgs/5.png)
+
+**Case screen**
+![picture](imgs/6.png)
