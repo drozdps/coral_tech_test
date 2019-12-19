@@ -27,7 +27,7 @@
 - Metadata API must be accessed to fetch accessible related lists
 - This solution works only for "domain" business objects, not with SF-internal support objects. So this is not a solution for Salesforce database analysis
 
-**Flow"**
+**Flow**
 ![picture](imgs/3.png)
 
 **Spinner**
