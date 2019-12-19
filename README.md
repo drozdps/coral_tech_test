@@ -2,6 +2,8 @@
 
 > The component shows statistics about related objects
 
+![picture](imgs/1Add.png)
+
 **Solution**
 
 - I've decided to show only business-valuable objects, because this component is needed by Salesforce users, not by analytics
