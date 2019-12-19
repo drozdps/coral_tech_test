@@ -7,7 +7,7 @@
  */
 public class Layouts {
 
-	public List<LayoutItem> layouts {get;set;} 
+	public List<n> layouts {get;set;} 
 
 	public class LayoutItem {
 		public List<RelatedLists> relatedLists {get;set;} 	
