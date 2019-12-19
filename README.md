@@ -2,7 +2,7 @@
 
 > The component shows statistics about related objects
 
-![picture](imgs/1Add.png)
+![picture](imgs/1.png)
 
 **Solution**
 
