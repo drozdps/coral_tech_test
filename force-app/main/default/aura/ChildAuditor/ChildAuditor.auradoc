@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
+		Fetches related records for a particular SObject and displays statistics: Child SObject Name - Number of related records
+	</aura:example>
+</aura:documentation>

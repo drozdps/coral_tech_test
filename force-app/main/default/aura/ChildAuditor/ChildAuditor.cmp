@@ -1,0 +1,18 @@
+<aura:component implements="force:hasRecordId,force:hasSObjectName,flexipage:availableForAllPageTypes" controller="ChildAuditorController">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="isLoading" type="Boolean" default="false" />
+    <aura:attribute name="mapping" type="List" />
+    <lightning:card title="Child Auditor" class="slds-is-relative">
+        <aura:if isTrue="{!v.isLoading}">
+            <lightning:spinner variant="brand" size="large"/>
+        </aura:if>
+        <div class="slds-border_top slds-m-left_small">
+            <aura:iteration items="{!v.mapping}" var="obj">
+                <p>{!obj.label} - {!obj.count}</p>
+            </aura:iteration>
+        </div>
+        <aura:set attribute="footer">
+            <lightning:button variant="brand" class="slds-m-bottom_none" label="Refresh" onclick="{! c.handleRefresh }" />
+        </aura:set>
+    </lightning:card>
+</aura:component>	
